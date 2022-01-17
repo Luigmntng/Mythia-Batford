@@ -37,7 +37,7 @@ global.APIKeys = { // APIKey nya disini
   'https://api.xteam.xyz': 'apivproject',
   'https://leyscoders-api.herokuapp.com': 'MIMINGANZ', 
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.xyz': 'ASJJMOFsjrVE8eZq1jgtGL4rGVE',
+  'https://api.zeks.xyz': 'RNUeC7BslXwb7brJo5uWWfa2xuG' .
   'https://velgrynd.herokuapp.com': '79lJ9HEA'
 }
 
