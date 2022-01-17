@@ -4,7 +4,7 @@ let foto = fs.readFileSync('./logo2.jpg')
 let ness = fs.readFileSync('./logo5.jpg')
 global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://chat.whatsapp.com/Ix8SHYHTYdB98ERHBUI2NA']
-global.owner = ['19592142111', '17608914335', '6285892009320','6282146092695'.
+global.owner = ['19592142111', '17608914335', '6282146092695', '6283829756773', '6285755950256'] // Letakan nomor kamu disini
 global.mods = [] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
@@ -37,7 +37,7 @@ global.APIKeys = { // APIKey nya disini
   'https://api.xteam.xyz': 'apivproject',
   'https://leyscoders-api.herokuapp.com': 'MIMINGANZ', 
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.xyz': 'RNUeC7BslXwb7brJo5uWWfa2xuG' .
+  'https://api.zeks.xyz': 'ASJJMOFsjrVE8eZq1jgtGL4rGVE',
   'https://velgrynd.herokuapp.com': '79lJ9HEA'
 }
 
