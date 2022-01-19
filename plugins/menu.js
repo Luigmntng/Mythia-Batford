@@ -18,6 +18,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command, text }) => {
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
  let pat4= `@${'17608914335'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
+let pat5= `@${'6282146092695'.split('@')[0]}`
+ m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
  let waofc = `@${'0'.split('@')[0]}`
  m, { contextInfo: { mentionedJid: conn.parseMention(tag) }}
  try {
@@ -53,11 +55,12 @@ Level *%level (%exp / %maxexp)* [%xp4levelup]
 - ${pat2}
 - ${pat3}
 - ${pat4}
+- ${pat5}
 
 ❏ *G I T H U B*
 _%github_
 ❏ *I N S T A G R A M*
-https://instagram.com/johannes28_
+https://instagram.com/ahmdlui
 
 %readmore`.trimStart(),
   header: '❏ *%category*',
@@ -186,28 +189,28 @@ ${'```%npmdesc```'}
 
   try {
   	const jam = moment.tz('Asia/Jakarta').format('HH')
- var ucapanWaktu = 'Selamat Pagi 🌄'
+ var ucapanWaktu = 'Sugeng enjing 🌄'
 
 				if (jam >= '03' && jam <= '10') {
 
-				ucapanWaktu = 'Selamat Pagi 🌄'
+				ucapanWaktu = 'Sugeng enjing 🌄'
 
 				} else if (jam >= '10' && jam <= '13') {
 
-				ucapanWaktu = 'Selamat Siang ☀️'
+				ucapanWaktu = 'Sugeng beduk/awan ☀️'
 
 				} else if (jam >= '13' && jam <= '18') {
 
-				ucapanWaktu = 'Selamat Sore 🌅'
+				ucapanWaktu = 'Sugeng surup 🌅'
 
 				} else if (jam >= '18' && jam <= '23') {
 
-				ucapanWaktu = 'Selamat Malam 🌙'
+				ucapanWaktu = 'Sugeng Wengi 🌙'
 
 
 				} else {
 
-				ucapanWaktu = 'Selamat Malam 🌙'
+				ucapanWaktu = 'Sugeng Wengi 🌙'
 
 				}
 const ftroli = {
