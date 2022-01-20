@@ -6,7 +6,7 @@ let handler = async(m, { conn }) => {
   if (!res.ok) throw await res.text()
   let json = await res.json()
   if (!json.url) throw 'Error!'
-  conn.sendFile(m.chat, json.url, '', 'Ciee Kena Tipu:V', m)
+  conn.sendFile(m.chat, json.url, '', 'Udah tolol  Kena Tipu pula 🐦', m)
 }
 handler.help = ['trap']
 handler.tags = ['dewasa']
