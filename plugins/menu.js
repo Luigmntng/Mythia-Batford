@@ -448,35 +448,32 @@ Note: Jika ada Fitur yg Error Lapor ke owner
       }, {quoted: ftroli, contextInfo: { mentionedJid: conn.parseMention(tag) }}), { waitForAck: true })
     }
     // gunakan ini jika kamu menggunakan whatsapp bisnis
-       throw `
-     ┌〔 DAFTAR MENU 〕
-     ├ ${_p + command} all
-     ├ ${_p + command} game
-     ├ ${_p + command} xp
-     ├ ${_p + command} stiker
-     ├ ${_p + command} kerang
-     ├ ${_p + command} quotes
-     ├ ${_p + command} admin
-     ├ ${_p + command} group
-     ├ ${_p + command} premium
-     ├ ${_p + command} internet
-     ├ ${_p + command} anonymous
-     ├ ${_p + command} nulis
-     ├ ${_p + command} downloader
-     ├ ${_p + command} tools
-     ├ ${_p + command} fun
-     ├ ${_p + command} database
-     ├ ${_p + command} vote
-     ├ ${_p + command} quran
-     ├ ${_p + command} audio
-     ├ ${_p + command} jadibot
-     ├ ${_p + command} info
-     ├ ${_p + command} tanpa kategori
-     ├ ${_p + command} owner
-     ├ ${_p + command} sc
-     └────  
-    //     `.trim()
-    let groups = {}
+   //    throw `
+   //  ┌〔 DAFTAR MENU 〕
+    // ├ ${_p + command} all
+   //  ├ ${_p + command} game
+  //   ├ ${_p + command} xp
+  //   ├ ${_p + command} stiker
+ //    ├ ${_p + command} kerang
+ //    ├ ${_p + command} quotes
+ //    ├ ${_p + command} admin
+ //    ├ ${_p + command} group
+ //    ├ ${_p + command} premium
+  //   ├ ${_p + command} internet
+//     ├ ${_p + command} anonymous
+//     ├ ${_p + command} nulis
+//     ├ ${_p + command} downloader
+//     ├ ${_p + command} tools
+//     ├ ${_p + command} fun
+//     ├ ${_p + command} database
+//     ├ ${_p + command} vote
+//     ├ ${_p + command} quran
+//     ├ ${_p + command} audio
+//     ├ ${_p + command} jadibot
+//     ├ ${_p + command} info
+//     ├ ${_p + command} tanpa kategori
+//     ├ ${_p + command} owner
+//     ├ ${9
     for (let tag in tags) {
       groups[tag] = []
       for (let plugin of help)
