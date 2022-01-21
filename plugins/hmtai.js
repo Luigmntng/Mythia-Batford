@@ -10,7 +10,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 			contentText: 'Random Image',
 			footerText: command,
 			buttons: [
-				{ buttonId: usedPrefix + command, buttonText: { displayText: 'Get Again' }, type: 1 }
+				{ buttonId: usedPrefix + command, buttonText: { displayText: 'Get Dosa Again' }, type: 1 }
 			],
 			headerType: 'IMAGE',
 			imageMessage: (await conn.prepareMessageMedia(buffer, 'imageMessage', {})).imageMessage
@@ -20,4 +20,16 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 handler.help = ['ass', 'bdsm', 'blowjob', 'boobjob', 'cum', 'creampie', 'cuckold', 'ero', 'elves', 'femdom', 'foot', 'gangbang', 'glasses', 'hentai', 'incest', 'masturbation', 'pantsu', 'orgy', 'tentacles', 'thighs', 'uniform', 'vagina', 'yuri' ]
 handler.tags = ['dewasa']
 handler.command = /^(ass|bdsm|blowjob|boobjob|cum|creampie|cuckold|ero|elves|femdom|foot|gangbang|glasses|hentai|incest|masturbation|pantsu|orgy|tentacles|thighs|uniform|vagina|yuri)$/i
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
+handler.limit = true
+
 module.exports = handler
