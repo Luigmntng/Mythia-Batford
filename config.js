@@ -43,7 +43,7 @@ global.APIKeys = { // APIKey nya disini
 
 // Sticker WM
 global.packname = 'Sticker'
-global.author = 'By Mythia-batford'
+global.author = 'By eL GM'
 global.image = kontol
 global.image2 = foto
 global.image3 = ness
