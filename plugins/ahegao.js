@@ -10,7 +10,7 @@ handler.help = ['ahegao'].map(v => v + ' ')
 handler.tags = ['dewasa']
 
 handler.command = /^(ahegao)$/i
-handler.owner = true
+handler.owner = false
 handler.mods = false
 handler.premium = true
 handler.group = false
