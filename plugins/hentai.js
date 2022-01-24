@@ -9,7 +9,7 @@ handler.help = ['hentai']
 handler.tags = ['dewasa']
 
 handler.command = /^(hentai)$/i
-handler.owner = true
+handler.owner = false
 
 handler.mods = false
 handler.premium = true
