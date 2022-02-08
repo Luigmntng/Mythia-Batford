@@ -11,4 +11,8 @@ handler.tags = ['dewasa']
 
 handler.command = /^(ero)$/i
 
+handler.premium = true
+handler.register = true
+
+
 module.exports = handler
