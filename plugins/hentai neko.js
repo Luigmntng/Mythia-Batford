@@ -14,28 +14,7 @@ async function getRandom(url) {
     
     handler.command = /^(hentaineko)$/i
     
-    handler.owner = false
-    
-    handler.mods = false
-    
-    handler.premium = false
-    
-    handler.group = false
-    
-    handler.private = false
-    
-    
-    
-    handler.admin = false
-    
-    handler.botAdmin = false
-    
-    
-    
-    handler.fail = null
-    
-    handler.limit = true
-    
-    
-    
+    handler.premium = true
+    handler.register = true
+
     module.exports = handler
